@@ -1,0 +1,11 @@
+{
+  "org": "poolsideai",
+  "repo": "sturdyc",
+  "versions": [
+    {
+      "commit": "79cb70fafee272c1f90e356a244bec106e4c4567",
+      "tag": "v1.1.5",
+      "parsed_at": "2026-10-01T07:44:27.326100+00:00"
+    }
+  ]
+}
