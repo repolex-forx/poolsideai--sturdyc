@@ -1,0 +1,14 @@
+[2026-10-01T07:43:06Z] === ENRICH ITERATION 1 START | repo=poolsideai/sturdyc sha=79cb70fa ===
+[2026-10-01T07:43:06Z] [iter=1] PHASE START: enrich repo=poolsideai/sturdyc sha=79cb70fa runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/79cb70fa-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/79cb70fafee272c1f90e356a244bec106e4c4567.nq.gz
+[2026-10-01T07:43:07Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-10-01T07:43:11Z] [iter=1] AST store loaded triples=381123 load_secs=4 mem_mb=591 MB
+[2026-10-01T07:43:11Z] [iter=1] Step 2: Finding LSP targets mem_mb=591 MB
+[2026-10-01T07:43:11Z] [iter=1] LSP targets found call_sites=3393 imports=0 extends=0 implements=0 secs=0
+[2026-10-01T07:43:12Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=591 MB
+[2026-10-01T07:43:13Z] [iter=1] Position index built positions=24324 nodes_with_types=30119 secs=2 mem_mb=591 MB
+[2026-10-01T07:43:13Z] [iter=1] Step 3: Starting LSP resolution mem_mb=591 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T07:43:13Z] [iter=1] Resolving target type target_type=call_site count=3393
+[2026-10-01T07:43:14Z] [iter=1] Target type resolved target_type=call_site resolved=0 errors=3393 secs=1 mem_mb=591 MB
+[2026-10-01T07:43:14Z] [iter=1] Step 5: Writing final enrichment file triples=6
+[2026-10-01T07:43:14Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/79cb70fafee272c1f90e356a244bec106e4c4567.nq.gz size_kb=0
+[2026-10-01T07:43:14Z] [iter=1] PHASE END: enrich elapsed_s=8 elapsed_min=0.1 total_triples=6

@@ -69,6 +69,31 @@
       ],
       "ast": [
         "aggregate/ast/79cb70fafee272c1f90e356a244bec106e4c4567/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/79cb70fafee272c1f90e356a244bec106e4c4567.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "github.com/google/go-cmp",
+          "ecosystem": "GO",
+          "version": "0.6.0",
+          "githubOrg": "google",
+          "githubRepo": "go-cmp",
+          "githubCommit": "c3ad8435e7bef96af35732bc0789e5a2278c6d5f",
+          "githubTag": "v0.6.0",
+          "githubUrl": "https://github.com/google/go-cmp",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/cespare/xxhash/v2",
+          "ecosystem": "GO",
+          "version": "2.3.0",
+          "githubOrg": "cespare",
+          "githubRepo": "xxhash",
+          "githubCommit": "998dce232f17418a7a5721ecf87ca714025a3243",
+          "githubTag": "v2.3.0",
+          "githubUrl": "https://github.com/cespare/xxhash",
+          "source": "build_file:go.mod"
+        }
       ]
     }
   ],
