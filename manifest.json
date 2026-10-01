@@ -94,7 +94,9 @@
           "githubUrl": "https://github.com/cespare/xxhash",
           "source": "build_file:go.mod"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/79cb70fafee272c1f90e356a244bec106e4c4567/chunk-001.nq.gz",
+      "dep": "dep/79cb70fafee272c1f90e356a244bec106e4c4567.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",

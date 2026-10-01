@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/poolsideai/sturdyc/commit/79cb70fafee272c1f90e356a244bec106e4c4567",
       "git:hexsha": "79cb70fafee272c1f90e356a244bec106e4c4567",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "v1.1.5"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v1.1.5",
+      "repolex:parsedAt": "2026-10-01T07:44:27.325692+00:00"
     },
     {
       "@id": "https://repolex.ai/r/poolsideai/sturdyc/commit/08e4d1a722bd9bc2867f891344fa8646ec6b7ce6",
